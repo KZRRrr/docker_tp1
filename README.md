@@ -47,6 +47,9 @@ COPY ./html/index.html /usr/local/apache2/htdocs/
 EXPOSE 80 
 
 
+
+
+docker run --name contener_phpmyadmin --link contener_mysql -p 8080:80 -d -e PMA_HOST=contener_mysql phpmyadmin/phpmyadmin
   
 
 
