@@ -54,3 +54,5 @@ docker run --name contener_phpmyadmin --link contener_mysql -p 8080:80 -d -e PMA
 Docker est utilisé pour gérer des conteneurs individuels, tandis que Docker Compose est utilisé pour gérer des applications composées de plusieurs conteneurs interconnectés. Ils sont souvent utilisés ensemble pour simplifier le processus de développement, de déploiement et de gestion des applications conteneurisées.
 
 
+La commande qui permet de lancer tous les conteneurs du fichier yaml est docker-compose up
+La commande qui permet de stopper tous les conteneurs du fichier yaml est docker-compose stop
